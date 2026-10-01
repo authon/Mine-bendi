@@ -17,7 +17,7 @@ sudo apt-get update && sudo apt-get install -y curl wget
 ---
 - WSL Ubuntu、服务器版Ubuntu、桌面版Ubuntu 通用一键编译openwrt命令（短链接命令）
 ```sh
-bash <(curl -fsSL git.io/local.sh)
+bash <(curl -fsSL raw.githubusercontent.com/authon/Mine-bendi/main/local.sh)
 ```
 
 ---
