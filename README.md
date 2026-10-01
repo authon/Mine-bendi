@@ -23,18 +23,18 @@ bash <(curl -fsSL git.io/local.sh)
 ---
 - 短链接命令，有时候会抽风的，用不了，如果用不了就用此命令
 ```sh
-bash <(curl -fsSL https://github.com/authon/bendi/raw/main/local.sh)
+bash <(curl -fsSL https://github.com/authon/Mine-bendi/raw/main/local.sh)
 ```
 #
 ---
 ---
-# <img src="https://github.com/authon/bendi/blob/main/doc/1.png" /> <br>
-# <img src="https://github.com/authon/bendi/blob/main/doc/02.png" /> <br>
-# <img src="https://github.com/authon/bendi/blob/main/doc/2.png" /> <br>
-# <img src="https://github.com/authon/bendi/blob/main/doc/3.png" /> <br>
-# <img src="https://github.com/authon/bendi/blob/main/doc/4.png" /> <br>
-# <img src="https://github.com/authon/bendi/blob/main/doc/5.png" /> <br>
-# <img src="https://github.com/authon/bendi/blob/main/doc/6.png" /> <br>
-# <img src="https://github.com/authon/bendi/blob/main/doc/7.png" /> <br>
-# <img src="https://github.com/authon/bendi/blob/main/doc/8.png" /> <br>
+# <img src="https://github.com/authon/Mine-bendi/blob/main/doc/1.png" /> <br>
+# <img src="https://github.com/authon/Mine-bendi/blob/main/doc/02.png" /> <br>
+# <img src="https://github.com/authon/Mine-bendi/blob/main/doc/2.png" /> <br>
+# <img src="https://github.com/authon/Mine-bendi/blob/main/doc/3.png" /> <br>
+# <img src="https://github.com/authon/Mine-bendi/blob/main/doc/4.png" /> <br>
+# <img src="https://github.com/authon/Mine-bendi/blob/main/doc/5.png" /> <br>
+# <img src="https://github.com/authon/Mine-bendi/blob/main/doc/6.png" /> <br>
+# <img src="https://github.com/authon/Mine-bendi/blob/main/doc/7.png" /> <br>
+# <img src="https://github.com/authon/Mine-bendi/blob/main/doc/8.png" /> <br>
 

@@ -57,7 +57,7 @@ if [[ -n "$(echo "${PATH}" |grep -i 'windows')" ]]; then
     read -p "请选择：" YONU
     case ${YONU} in
     [Yy])
-        bash -c "$(curl -fsSL https://raw.githubusercontent.com/authon/bendi/main/wsl.sh)"
+        bash -c "$(curl -fsSL https://raw.githubusercontent.com/authon/Mine-bendi/main/wsl.sh)"
         exit 0
         break
     ;;
@@ -119,7 +119,7 @@ if [[ ! -f "/etc/oprelyonu" ]]; then
     ;;
     esac
   done
-  if sudo bash -c 'bash <(curl -fsSL https://github.com/authon/common/raw/main/custom/ubuntu.sh)'; then
+  if sudo bash -c 'bash <(curl -fsSL https://github.com/authon/Mine-common/raw/main/custom/ubuntu.sh)'; then
     sudo sh -c 'echo openwrt > /etc/oprelyonu'
   else
     sudo rm -rf /etc/oprelyo*
@@ -161,8 +161,8 @@ export MYCONFIG_FILE="${COMPILE_PATH}/seed/${CONFIG_FILE}"
 LINSHI_COMMON="/tmp/common"
 [[ ! -d "${OPERATES_PATH}" ]] && TIME r "缺少编译主文件,正在下载中..." || TIME y "正在执行：判断文件是否缺失"
 [[ -d "${LINSHI_COMMON}" ]] && rm -rf "${LINSHI_COMMON}"
-if ! git clone -q --single-branch --depth=1 --branch=main https://github.com/authon/common "${LINSHI_COMMON}"; then
-  git clone --depth=1 https://github.com/authon/common "${LINSHI_COMMON}"
+if ! git clone -q --single-branch --depth=1 --branch=main https://github.com/authon/Mine-common "${LINSHI_COMMON}"; then
+  git clone --depth=1 https://github.com/authon/Mine-common "${LINSHI_COMMON}"
 fi
 if [ -f "${LINSHI_COMMON}/custom/first.sh" ] && grep -qE "bash" "${LINSHI_COMMON}/custom/first.sh"; then
   chmod -R +x "${LINSHI_COMMON}"
