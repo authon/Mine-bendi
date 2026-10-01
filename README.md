@@ -15,13 +15,13 @@
 sudo apt-get update && sudo apt-get install -y curl wget
 ```
 ---
-- WSL Ubuntu、服务器版Ubuntu、桌面版Ubuntu 通用一键编译openwrt命令（短链接命令）
+- WSL Ubuntu、服务器版Ubuntu、桌面版Ubuntu 通用一键编译openwrt命令
 ```sh
-bash <(curl -fsSL raw.githubusercontent.com/authon/Mine-bendi/main/local.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/authon/Mine-bendi/main/local.sh)
 ```
 
 ---
-- 短链接命令，有时候会抽风的，用不了，如果用不了就用此命令
+- 上面的命令有时候会抽风用不了，那就改用这条
 ```sh
 bash <(curl -fsSL https://github.com/authon/Mine-bendi/raw/main/local.sh)
 ```
